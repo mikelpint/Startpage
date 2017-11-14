@@ -1,0 +1,17 @@
+.search-box {
+    margin-left: 6em;
+    padding: 2em;
+    margin-top: 2em;
+    background-color: $bg;
+}
+
+input.search-query {
+    margin-left: 2em;
+    width: 25%;
+    box-sizing: border-box;
+    font-size: 20pt;
+    border: 1px;
+    border-radius: 5px;
+    background: $bg;
+    color: $fg;
+}

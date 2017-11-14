@@ -1,0 +1,22 @@
+@import "variables";
+
+.bg {
+    background-color: $bg;
+}
+
+#header {
+    margin: auto;
+    list-style: none;
+    border-bottom: 1px solid #212121;
+
+    ul,ol {
+        padding: 1em;
+        list-style: none;
+        float: right;
+    }
+
+    h1  {
+        color: $fg;
+        margin-bottom: 0.2em;
+    }
+}

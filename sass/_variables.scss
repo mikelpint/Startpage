@@ -1,0 +1,59 @@
+/*
+    Color palettes
+*/
+
+// Flat UI palette
+
+$color_1:   #2C3E50;
+$color_2:   #E74C3C;
+$color_3:   #ECF0F1;
+$color_4:   #3498DB;$color_5:   #2980B9;
+
+// Cherry Cheesecake palette
+
+$color_6:   #B9121B;
+$color_7:   #4C1B1B;
+$color_8:   #F6E497;
+$color_9:   #FCFAE1;
+$color_10:  #BD8D46;
+
+// Ventana Azul palette
+
+$color_11:  #F2385A;
+$color_12:  #F5A503;
+$color_13:  #E9F1DF;
+$color_14:  #4AD9D9;
+$color_15:  #36B1BF;
+
+// Tomorrow Night palette
+
+/* Background */     $color_16:  #1d1f21;
+/* Current line */   $color_17:  #282a2e;
+/* Selection */      $color_18:  #373b41;
+/* Foreground */     $color_19:  #c5c8c6;
+/* Comment */        $color_20:  #969896;
+/* Red */            $color_21:  #cc6666;
+/* Orange */         $color_22:  #de935f;
+/* Yellow */         $color_23:  #f0c674;
+/* Green */          $color_24:  #b5bd68;
+/* Aqua */           $color_25:  #8abeb7;
+/* Blue */           $color_26:  #81a2be;
+/* Purple */         $color_27:  #b294bb;
+
+// Tomorrow Night Eighties palette
+
+/* Background */     $color_28:  #2d2d2d;
+/* Current line */   $color_29:  #393939;
+/* Selection */      $color_30:  #515151;
+/* Foreground */     $color_31:  #cccccc;
+/* Comment */        $color_32:  #999999;
+/* Red */            $color_33:  #f2777a;
+/* Orange */         $color_33:  #f99157;
+/* Yellow */         $color_34:  #ffcc66;
+/* Green */          $color_35:  #99cc99;
+/* Aqua */           $color_36:  #66cccc;
+/* Blue */           $color_37:  #6699cc;
+/* Purple */         $color_38:  #cc99cc;
+
+$bg: $color_28;
+$fg: $color_31;

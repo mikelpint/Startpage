@@ -1,0 +1,31 @@
+@import "variables";
+
+.links  {
+    a:link  {
+        color: $fg;
+        text-decoration: none;
+        background-color: transparent;
+        -webkit-text-decoration-skip: objects;
+    }
+
+    a:visited   {
+        color: $fg;
+        text-decoration: none;
+        background-color: transparent;
+        -webkit-text-decoration-skip: objects;
+    }
+      
+    a:hover {
+        color: $fg;
+        text-decoration: underline;
+        background-color: transparent;
+        -webkit-text-decoration-skip: objects;
+      }
+
+    a:active  {
+        color: $fg ;
+        text-decoration: underline;
+        background-color: transparent;
+        -webkit-text-decoration-skip: objects;
+      }
+}

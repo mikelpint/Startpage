@@ -1,0 +1,64 @@
+.lists  {
+    font-size: 12pt;
+
+    float: left;
+
+    margin-left: 5em;
+    margin-top: 3em;
+
+    height: 8.5em;
+    
+    border-radius: 6px;
+    border-width: 1px;
+    border-style: solid;
+
+    ul {
+        list-style: none;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 0.5em;
+    }
+
+    h3  {
+        margin: 0;
+        margin-top: 5px;
+        padding: 0;
+        font-size: 18pt;
+        font: bold;
+        color: $bg;
+        border-radius: 6px;
+        text-align: center;
+    }
+}
+#list1 {
+    .list-title {
+        background: $color_35;
+    }
+
+    border-color: $color_35;
+}
+
+#list2 {
+    .list-title {
+        background: $color_36;
+    }
+
+    border-color: $color_36;
+}
+
+#list3 {
+    .list-title {
+        background: $color_33;
+    }
+
+    border-color: $color_33;
+}
+
+#list4 {
+    .list-title {
+        background: $color_38;
+    }
+
+    border-color: $color_38;
+}
