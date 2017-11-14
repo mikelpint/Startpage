@@ -1,0 +1,186 @@
+/*
+    Color palettes
+*/
+/* Background */
+/* Current line */
+/* Selection */
+/* Foreground */
+/* Comment */
+/* Red */
+/* Orange */
+/* Yellow */
+/* Green */
+/* Aqua */
+/* Blue */
+/* Purple */
+/* Background */
+/* Current line */
+/* Selection */
+/* Foreground */
+/* Comment */
+/* Red */
+/* Orange */
+/* Yellow */
+/* Green */
+/* Aqua */
+/* Blue */
+/* Purple */
+.bg {
+  background-color: #2d2d2d; }
+
+#header {
+  margin: auto;
+  list-style: none;
+  border-bottom: 1px solid #212121; }
+  #header ul, #header ol {
+    padding: 1em;
+    list-style: none;
+    float: right; }
+  #header h1 {
+    color: #cccccc;
+    margin-bottom: 0.2em; }
+
+/*
+    Color palettes
+*/
+/* Background */
+/* Current line */
+/* Selection */
+/* Foreground */
+/* Comment */
+/* Red */
+/* Orange */
+/* Yellow */
+/* Green */
+/* Aqua */
+/* Blue */
+/* Purple */
+/* Background */
+/* Current line */
+/* Selection */
+/* Foreground */
+/* Comment */
+/* Red */
+/* Orange */
+/* Yellow */
+/* Green */
+/* Aqua */
+/* Blue */
+/* Purple */
+.fonts {
+  color: #cccccc;
+  font-family: 'Open sans', sans-serif; }
+
+.body-margin {
+  padding: 10px; }
+
+.lists {
+  font-size: 12pt;
+  float: left;
+  margin-left: 5em;
+  margin-top: 3em;
+  height: 8.5em;
+  border-radius: 6px;
+  border-width: 1px;
+  border-style: solid; }
+  .lists ul {
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0.5em; }
+  .lists h3 {
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+    font-size: 18pt;
+    font: bold;
+    color: #2d2d2d;
+    border-radius: 6px;
+    text-align: center; }
+
+#list1 {
+  border-color: #99cc99; }
+  #list1 .list-title {
+    background: #99cc99; }
+
+#list2 {
+  border-color: #66cccc; }
+  #list2 .list-title {
+    background: #66cccc; }
+
+#list3 {
+  border-color: #f99157; }
+  #list3 .list-title {
+    background: #f99157; }
+
+#list4 {
+  border-color: #cc99cc; }
+  #list4 .list-title {
+    background: #cc99cc; }
+
+.search-box {
+  margin-left: 6em;
+  padding: 2em;
+  margin-top: 2em;
+  background-color: #2d2d2d; }
+
+input.search-query {
+  margin-left: 2em;
+  width: 25%;
+  box-sizing: border-box;
+  font-size: 20pt;
+  border: 1px;
+  border-radius: 5px;
+  background: #2d2d2d;
+  color: #cccccc; }
+
+/*
+    Color palettes
+*/
+/* Background */
+/* Current line */
+/* Selection */
+/* Foreground */
+/* Comment */
+/* Red */
+/* Orange */
+/* Yellow */
+/* Green */
+/* Aqua */
+/* Blue */
+/* Purple */
+/* Background */
+/* Current line */
+/* Selection */
+/* Foreground */
+/* Comment */
+/* Red */
+/* Orange */
+/* Yellow */
+/* Green */
+/* Aqua */
+/* Blue */
+/* Purple */
+.links a:link {
+  color: #cccccc;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects; }
+.links a:visited {
+  color: #cccccc;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects; }
+.links a:hover {
+  color: #cccccc;
+  text-decoration: underline;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects; }
+.links a:active {
+  color: #cccccc;
+  text-decoration: underline;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects; }
+
+/*# sourceMappingURL=main.css.map */
