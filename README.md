@@ -1,5 +1,5 @@
 # Startpage
-This startpage is a simple website where you can contribute.
+This startpage is a simple website where you can feel free to contribute.
 
 It is highly based on [@danirod's](https://github.com/danirod/startpage).
 
