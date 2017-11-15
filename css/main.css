@@ -79,7 +79,7 @@
   float: left;
   margin-left: 5em;
   margin-top: 3em;
-  height: 8.5em;
+  height: auto1em;
   border-radius: 6px;
   border-width: 1px;
   border-style: solid; }
@@ -182,3 +182,5 @@ input.search-query {
   text-decoration: underline;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
+
+/*# sourceMappingURL=main.css.map */
