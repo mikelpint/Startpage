@@ -39,7 +39,8 @@
     <div class="search-box bg fonts">
       <form action="https://www.google.com/search" method="get">
         <input type="hidden" name="sitesearch" />
-        <input type="text" name="q" placeholder="Search..." class="search-query" autocomplete="on" />
+        <input type="text" name="q" placeholder="Search..." class="search-query" autocomplete="on" autofocus />
+        <!-- Note: The autofocus attribute of the input tag is not supported in Internet Explorer 9 and earlier versions. -->
       </form>
     </div>
   </div>
