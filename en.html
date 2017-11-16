@@ -25,14 +25,37 @@
     <nav>
       <h1 onclick="location.href='en.html';">~/Startpage</h1>
       <ul>
+      <div class="dropdown">
+        <li class="links"><button onclick="myFunction()" class="dropbtn" class="links" title="English is selected">Language</button></li>
+        <div id="myDropdown" class="dropdown-content">
         <li class="links"><a class="links" href="es.html">Español</a></li>
-      </ul>
-      <ul>
         <li style="font-weight: bold;" class="links"><a class="links" href="en.html">English</a></li>
-      </ul>
-      <ul>
         <li class="links"><a class="links" href="de.html">Deutsch</a></li>
+      </div>
+    </div>
       </ul>
+      <script>
+        /* When the user clicks on the button,
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+      </script>
     </nav>
   </div>
   <div class="text-center search-query fonts bg">
