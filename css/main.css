@@ -250,10 +250,9 @@ input[type=text]:focus {
   font-size: 10px;
   z-index: 10;
   height: 3em;
+  margin: 0 auto;
   margin-top: -3em;
   width: 100%;
-  min-width: 80%;
-  max-width: 120%;
   text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
