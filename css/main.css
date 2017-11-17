@@ -249,6 +249,10 @@ input[type=text]:focus {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  font-size: 10px; }
+  font-size: 10px;
+  clear: both;
+  z-index: 10;
+  height: 3em;
+  margin-top: -3em; }
 
 /*# sourceMappingURL=main.css.map */
