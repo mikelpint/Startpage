@@ -246,7 +246,7 @@ input[type=text]:focus {
 
 #footer {
   position: absolute;
-  bottom: -50px;
+  bottom: -5em;
   font-size: 10px;
   z-index: 10;
   height: 3em;
