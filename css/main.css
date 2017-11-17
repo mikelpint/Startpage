@@ -252,6 +252,8 @@ input[type=text]:focus {
   height: 3em;
   margin-top: -3em;
   width: 100%;
-  text-align: center; }
+  text-align: center;
+  left: 0;
+  right: 0; }
 
 /*# sourceMappingURL=main.css.map */
