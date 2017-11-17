@@ -1,9 +1,11 @@
 #footer {
-    align-content: center;
     position: absolute;
     bottom: 0px;
     left: 0px;
     font-size:10px;
     height: 64px;
     width: 100%;
+    margin: auto;
+    min-width:600px;
+    max-width:2000px;
 }
