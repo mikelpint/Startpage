@@ -1,10 +1,10 @@
 #footer {
-    position: absolute;
-    bottom: 0px;
+    position: fixed;
+    bottom: 0;
     left: 0px;
     font-size:10px;
     height: 64px;
-    width: 100%;
+    width: 100px / 80px * 75%;
     margin: auto;
     min-width:600px;
     max-width:2000px;
