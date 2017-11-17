@@ -243,4 +243,13 @@ input[type=text]:focus {
 .show {
   display: block; }
 
+#footer {
+  align-content: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  font-size: 10px;
+  height: 64px;
+  width: 100%; }
+
 /*# sourceMappingURL=main.css.map */
