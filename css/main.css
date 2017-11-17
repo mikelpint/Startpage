@@ -244,15 +244,11 @@ input[type=text]:focus {
   display: block; }
 
 #footer {
-  position: absolute;
-  bottom: 0;
-  left: 0px;
-  font-size: 10px;
-  height: 64px;
-  width: 93.75%;
-  margin: auto;
-  margin-bottom: 4em;
-  min-width: 600px;
-  max-width: 2000px; }
+  z-index: 10;
+  position: relative;
+  height: 3em;
+  margin-top: -3em;
+  clear: both;
+  font-size: 10px; }
 
 /*# sourceMappingURL=main.css.map */
