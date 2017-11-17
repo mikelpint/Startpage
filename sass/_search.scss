@@ -15,3 +15,18 @@ input.search-query {
     background: $bg;
     color: $fg;
 }
+
+input:hover {
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #B6FF00, 0 0 35px #B6FF00, 0 0 40px #B6FF00, 0 0 50px #B6FF00, 0 0 75px #B6FF00;
+}
+
+input[type=text] {
+    width: 270px;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+}
+
+input[type=text]:focus {
+    outline: none;
+    width: 300px;
+}

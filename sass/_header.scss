@@ -7,16 +7,12 @@
 #header {
     margin: auto;
     list-style: none;
-    border-bottom: 1px solid #212121;
-
-    ul,ol {
+    border-bottom: 1px solid #212121; }
+    #header ul, #header ol {
         padding: 1em;
         list-style: none;
-        float: right;
-    }
-
-    h1  {
-        color: $fg;
+        float: right; }
+    #header h1 {
+        color: #cccccc;
         margin-bottom: 0.2em;
-    }
 }
