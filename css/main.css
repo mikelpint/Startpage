@@ -32,15 +32,6 @@
   margin: auto;
   list-style: none;
   border-bottom: 1px solid #212121; }
-<<<<<<< HEAD
-  #header ul, #header ol {
-    padding: 1em;
-    list-style: none;
-    float: right; }
-  #header h1 {
-    color: #cccccc;
-    margin-bottom: 0.2em; }
-=======
 
 #header ul, #header ol {
   padding: 1em;
@@ -50,7 +41,6 @@
 #header h1 {
   color: #cccccc;
   margin-bottom: 0.2em; }
->>>>>>> 03ad45588bf643edd4c42a58242e4692b3a0f42f
 
 /*
     Color palettes
@@ -147,8 +137,6 @@ input.search-query {
   background: #2d2d2d;
   color: #cccccc; }
 
-<<<<<<< HEAD
-=======
 input:hover {
   box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #B6FF00, 0 0 35px #B6FF00, 0 0 40px #B6FF00, 0 0 50px #B6FF00, 0 0 75px #B6FF00; }
 
@@ -161,7 +149,6 @@ input[type=text]:focus {
   outline: none;
   width: 300px; }
 
->>>>>>> 03ad45588bf643edd4c42a58242e4692b3a0f42f
 /*
     Color palettes
 */
@@ -210,7 +197,6 @@ input[type=text]:focus {
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
 
-<<<<<<< HEAD
 .dropbtn {
   background-color: transparent;
   color: white;
@@ -250,6 +236,4 @@ input[type=text]:focus {
 .show {
   display: block; }
 
-=======
->>>>>>> 03ad45588bf643edd4c42a58242e4692b3a0f42f
 /*# sourceMappingURL=main.css.map */
