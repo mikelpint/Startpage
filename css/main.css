@@ -206,7 +206,7 @@ input[type=text]:focus {
   -webkit-text-decoration-skip: objects; }
 
 .dropbtn {
-  background-color: transparent;
+  background-color: #2d2d2d;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -215,7 +215,7 @@ input[type=text]:focus {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); }
 
 .dropbtn:hover, .dropbtn:focus {
-  background-color: transparent;
+  background-color: #2d2d2d;
   outline: none; }
 
 .dropdown {
@@ -225,7 +225,7 @@ input[type=text]:focus {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: transparent;
+  background-color: #2d2d2d;
   min-width: 16px;
   overflow: auto;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -238,7 +238,7 @@ input[type=text]:focus {
   display: block; }
 
 .dropdown a:hover {
-  background-color: transparent;
+  background-color: #2d2d2d;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); }
 
 .show {
