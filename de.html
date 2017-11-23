@@ -60,9 +60,13 @@
   </div>
   <div class="text-center search-query fonts bg">
     <div class="search-box bg fonts">
-      <form action="https://www.google.com/search" method="get">
+      <form action="https://encrypted.google.com/search" method="get">
+        <input type=hidden name=ie value=UTF-8>
+        <input type=hidden name=oe value=UTF-8>
+        <input type="hidden" name="lr" value="lang_de" />
         <input type="hidden" name="sitesearch" />
         <input type="text" name="q" placeholder="Mit Google suchen..." class="search-query" autocomplete="on" autofocus />
+        <input type=submit name=btnG value="Go!" class="dropbtn" style="border-radius: 5px;">
         <!-- Note: The autofocus attribute of the input tag is not supported in Internet Explorer 9 and earlier versions. -->
       </form>
     </div>
