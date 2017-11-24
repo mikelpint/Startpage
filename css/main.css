@@ -87,9 +87,10 @@ body {
 .lists {
   font-size: 12pt;
   float: left;
+  overflow: auto;
   margin-left: 5em;
   margin-top: 3em;
-  height: auto1em;
+  height: 14.25em;
   border-radius: 6px;
   border-width: 1px;
   border-style: solid; }
