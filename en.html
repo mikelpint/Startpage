@@ -59,19 +59,15 @@
     </nav>
   </div>
   <div class="text-center search-query fonts bg">
-    <div class="search-box bg fonts">
-      <form action="https://encrypted.google.com/search" method="get">
-        <input type=hidden name=ie value=UTF-8>
-        <input type=hidden name=oe value=UTF-8>
-        <input type="hidden" name="lr" value="lang_en" />
-        <input type="hidden" name="sitesearch" />
-        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" border="0" alt="Google" align="middle" width="90" height="32"></a>
-        <input type="text" name="q" placeholder="Search..." class="search-query" autocomplete="on" autofocus />
-        <input type=submit name=b value="Go!" class="dropbtn" style="border-radius: 5px;">
-        <!-- Note: The autofocus attribute of the input tag is not supported in Internet Explorer 9 and earlier versions. -->
-      </form>
+      <div class="search-box bg fonts">
+        <form action="https://www.google.com/search" method="get">
+          <input type="hidden" name="sitesearch" />
+          <input type="text" name="q" placeholder="Buscar..." class="search-query" autocomplete="on" autofocus />
+          <input type=image name=b src="imgs/google.png" class="dropbtn" style="border-radius: 5px;filter: grayscale(100%);width: 50px;height: 50px;margin-left: 10px;">
+          <!-- Note: The autofocus attribute of the input tag is not supported in Internet Explorer 9 and earlier versions. -->
+        </form>
+      </div>
     </div>
-  </div>
   <div class="fonts lists col-md-3" id="list1">
     <h3 name="essential" class="list-title" onclick="location.href='#essential';">Essential</h3>
     <ul>
