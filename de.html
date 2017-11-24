@@ -26,7 +26,7 @@
       <h1 onclick="location.href='de.html';">~/Startseite</h1>
       <ul>
         <div class="dropdown">
-          <li class="links"><button onclick="myFunction()" class="dropbtn" class="links" title="German is selected">Language</button></li>
+          <li class="links"><button onclick="myFunction()" class="dropbtn" class="links" title="German is selected" style="border-radius: 5px;">Language</button></li>
           <div id="myDropdown" class="dropdown-content">
             <li class="links"><a class="links" href="es.html">Español</a></li>
             <li class="links"><a class="links" href="en.html">English</a></li>
@@ -59,8 +59,12 @@
     </nav>
   </div>
   <div class="text-center search-query fonts bg">
+<<<<<<< HEAD
       <div class="search-box bg fonts">
         <form action="https://www.google.com/search" method="get">
+          <input type=hidden name=ie value=UTF-8>
+          <input type=hidden name=oe value=UTF-8>
+          <input type="hidden" name="lr" value="lang_de" />
           <input type="hidden" name="sitesearch" />
           <input type="text" name="q" placeholder="Buscar..." class="search-query" autocomplete="on" autofocus />
           <input type=image name=b src="imgs/google.png" class="dropbtn" style="border-radius: 5px;filter: grayscale(100%);width: 50px;height: 50px;margin-left: 10px;">
@@ -89,6 +93,7 @@
   <div class="fonts lists col-md-3" id="list3">
     <h3 name="news" class="list-title" onclick="location.href='#news';">Nachrichten</h3>
     <ul>
+      <li class="links"><a class="links" href="https://technikbrennpunkt.de/">Technik Brennpunkt</a></li>
       <li class="links"><a class="links" href="http://www.borncity.com/blog/">Borns IT- und Windows-Blog</a></li>
       <li class="links"><a class="links" href="https://feedly.com">Feedly</a></li>
       <li class="links"><a class="links" href="https://www.heise.de/">Heise.de</a></li>
