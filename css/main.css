@@ -87,9 +87,10 @@ body {
 .lists {
   font-size: 12pt;
   float: left;
+  overflow: auto;
   margin-left: 5em;
   margin-top: 3em;
-  height: auto1em;
+  height: 14.25em;
   border-radius: 6px;
   border-width: 1px;
   border-style: solid; }
@@ -128,6 +129,11 @@ body {
   border-color: #cc99cc; }
   #list4 .list-title {
     background: #cc99cc; }
+
+#list5 {
+  border-color: #ffcc66; }
+  #list5 .list-title {
+    background: #ffcc66; }
 
 .search-box {
   margin-left: 6em;

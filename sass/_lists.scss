@@ -2,16 +2,17 @@
     font-size: 12pt;
 
     float: left;
+    overflow: auto;
 
     margin-left: 5em;
     margin-top: 3em;
 
-    height: auto + 1em;
+    height: 14.25em;
     
     border-radius: 6px;
     border-width: 1px;
     border-style: solid;
-
+ 
     ul {
         list-style: none;
         text-align: center;
@@ -61,4 +62,12 @@
     }
 
     border-color: $color_38;
+}
+
+#list5 {
+    .list-title {
+        background: $color_34;
+    }
+
+    border-color: $color_34;
 }
