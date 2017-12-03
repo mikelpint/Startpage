@@ -195,16 +195,19 @@ input[type=text]:focus {
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
+
 .links a:visited {
   color: #cccccc;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
+
 .links a:hover {
   color: #cccccc;
   text-decoration: underline;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
+
 .links a:active {
   color: #cccccc;
   text-decoration: underline;
@@ -261,28 +264,23 @@ input[type=text]:focus {
   width: 100%;
   text-align: center; }
 
-  ::-webkit-scrollbar-track{
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-    border-radius: 8px;
-  }
-  ::-webkit-scrollbar {
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 8px; }
+
+::-webkit-scrollbar {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   width: 9px;
-  background-color: #2d2d2d;
-  }
-  ::-webkit-scrollbar-thumb {
-  background-image: -webkit-gradient(linear, 0 0, 0 100%,
-                     color-stop(.5, rgba(255, 255, 255, .2)),
-             color-stop(.5, transparent), to(transparent));
+  background-color: #2d2d2d; }
+
+::-webkit-scrollbar-thumb {
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0.5, rgba(255, 255, 255, 0.2)), color-stop(0.5, transparent), to(transparent));
   border: 1px dotted red;
   border-radius: 8px;
-  background-color: #0ae;
-  }
-  ::-webkit-scrollbar-thumb:hover {
-  background: red;
-  }
-  ::-webkit-scrollbar-thumb:active {
-  background: green;
-  }
+  background-color: #0ae; }
 
-/*# sourceMappingURL=main.css.map */
+::-webkit-scrollbar-thumb:hover {
+  background: red; }
+
+::-webkit-scrollbar-thumb:active {
+  background: green; }
