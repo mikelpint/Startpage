@@ -90,7 +90,7 @@ body {
   overflow: auto;
   margin-left: 5em;
   margin-top: 3em;
-  height: 14.25em;
+  height: 13.5em;
   border-radius: 6px;
   border-width: 1px;
   border-style: solid; }
@@ -195,19 +195,16 @@ input[type=text]:focus {
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
-
 .links a:visited {
   color: #cccccc;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
-
 .links a:hover {
   color: #cccccc;
   text-decoration: underline;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
-
 .links a:active {
   color: #cccccc;
   text-decoration: underline;
@@ -284,3 +281,5 @@ input[type=text]:focus {
 
 ::-webkit-scrollbar-thumb:active {
   background: green; }
+
+/*# sourceMappingURL=main.css.map */
