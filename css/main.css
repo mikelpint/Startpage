@@ -373,13 +373,12 @@ input[type=text]:focus {
 
 #footer {
   position: fixed;
-  bottom: -5em;
-  font-size: 10px;
-  z-index: 10;
-  height: 3em;
-  margin: 0 auto;
-  margin-top: -3em;
+  bottom: 0;
   width: 100%;
+  height: 50px;
+  /* Height of the footer */
+  color: #cccccc;
+  background: black;
   text-align: center;
 }
 
