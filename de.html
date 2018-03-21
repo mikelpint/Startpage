@@ -4,11 +4,13 @@
 <html lang="de" class="fonts" style="min-height:100%;position:relative;">
 
 <head>
-  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel='dns-prefetch' href='//fonts.googleapis.com'>
   <link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com'>
+  <link rel='dns-prefetch' href='//*.google.com'>
+  <link rel='dns-prefetch' href='//github.com'>
   <link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
   <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.css" media="screen">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700" rel="stylesheet">
@@ -18,6 +20,8 @@
   <script src='js/main.js' charset="utf-8"></script>
   <link rel='icon' href='imgs/favicon.png' type='image/x-icon'>
   <link rel='shortcut icon' href='imgs/favicon.png' type='image/x-icon'>
+  <meta name="MobileOptimized" content="width">
+  <meta name="HandheldFriendly" content="true">
   <title>~/Startseite</title>
 </head>
 
@@ -45,7 +49,7 @@
         <input type="hidden" name="lr" value="lang_de" />
         <input type="hidden" name="sitesearch" />
         <input required="required" autocomplete="off" autofocus readonly onfocus="this.removeAttribute('readonly');" type="text" name="q" placeholder="Websuche mit Google" class="search-query" />
-        <input type=image name=GButton src="imgs/google.png" class="dropbtn" style="border-radius: 5px; filter: grayscale(100%); width: 55px; height: 55px; margin-left: 10px; vertical-align: middle;">
+        <input type=image name=GButton src="imgs/google.png" class="GButton" class="dropbtn" >
         <!-- Note: The autofocus attribute of the input tag is not supported in Internet Explorer 9 and earlier versions. -->
       </form>
     </div>
@@ -54,7 +58,7 @@
     <h3 name="essential" class="list-title" onclick="location.href='#essential';">Essenzielles</h3>
     <ul>
       <li class="links"><img src="https://ssl.gstatic.com/gb/images/a/eacd033c28.png" width="24" height="24" style="vertical-align: middle;"><a class="links" href="https://inbox.google.com"> Google Inbox</a></li>
-
+      <li class="links"><img src="https://www.wetter.com/favicon.ico" width="24" height="24" style="vertical-align: middle;"><a class="links" href="https://www.wetter.com/"> Wettter.com</a></li>
       <li class="links"><img src="https://www.deezer.com/favicon.ico" width="24" height="24" style="vertical-align: middle;"><a class="links" href="https://www.deezer.com/login?redirect_type=page&redirect_link=%2Fde%2F"> Deezer - Musik-Streaming</a></li>
       <li class="links"><img src="https://www.deepl.com/img/favicon/favicon_32.png" width="24" height="24" style="vertical-align: middle;"><a class="links" href="https://www.deepl.com/translator"> DeepL Translator</a></li>
       <li class="links"><img src="https://www.google.com/gmail/about/images/favicon.ico" width="24" height="24" style="vertical-align: middle;"><a class="links" href="https://mail.google.com/mail/u/0/#inbox"> Google Mail</a></li>
