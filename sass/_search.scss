@@ -30,3 +30,26 @@ input[type=text]:focus {
     outline: none;
     width: 300px;
 }
+
+@viewport {
+      zoom: 1.0;
+      width: device-width;
+    }
+    
+     .bg {
+       background-color: #2d2d2d;
+     }
+     
+    .GButton {
+      border-radius: 5px;
+      filter: grayscale(100%);
+      width: 55px;
+      height: 55px;
+      margin-left: 10px;
+      vertical-align: middle;
+    }
+    
+     #header {
+       margin: auto;
+       list-style: none;
+     }
