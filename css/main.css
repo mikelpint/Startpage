@@ -246,6 +246,7 @@ input[type=text] {
   width: 270px;
   -webkit-transition: width .35s ease-in-out;
   transition: width .35s ease-in-out;
+  caret-color: #BBDF07;
 }
 
 input[type=text]:focus {
