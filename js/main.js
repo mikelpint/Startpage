@@ -24,3 +24,5 @@ $(document).ready(function() {
     $('.wrapper').html('<p>Sorry! Non webkit users. :(</p>');
   }
 });
+
+window.status = "";

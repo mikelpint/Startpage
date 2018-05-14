@@ -1,3 +1,11 @@
+RewriteEngine on
+RewriteCond %{HTTP:Accept-Language} (es) [NC]
+RewriteRule .* /es.html [L]
+RewriteCond %{HTTP:Accept-Language} (en) [NC]
+RewriteRule .* /en.html [L]
+RewriteCond %{HTTP:Accept-Language} (de) [NC]
+RewriteRule .* /de.html [L]
+
 ## EXPIRES CACHING ##
 <IfModule mod_expires.c>
 	ExpiresActive On
