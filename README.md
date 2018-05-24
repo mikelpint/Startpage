@@ -4,6 +4,8 @@ This startpage is a simple website where you can feel free to contribute.
 
 It is highly based on [@danirod's](https://github.com/danirod/startpage).
 
+### Languages: [ES](https://mikelpint.github.io/Startpage/es.html) [DE](https://mikelpint.github.io/Startpage/de.html) [EN](https://mikelpint.github.io/Startpage/en.html)
+
 ## Screenshot
 
 ![demo](https://raw.githubusercontent.com/mikelpint/Startpage/master/docs/screenshot.png)
