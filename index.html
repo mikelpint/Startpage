@@ -6,19 +6,48 @@ Just write the corresponding file (es, en, de [url=en.html]) in the line.  -->
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel='icon' href='docs/favicon.png' type='image/x-icon'>
-  <link rel='shortcut icon' href='docs/favicon.png' type='image/x-icon'>
   <link rel='dns-prefetch' href='//fonts.googleapis.com'>
   <link rel='dns-prefetch' href='//*.google.com'>
   <link rel='dns-prefetch' href='//github.com'>
   <link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com'>
-  <meta http-equiv="refresh" content="0; url=en.html">
+  <meta http-equiv="refresh" content="5; url=en.html">
   <meta name="keywords" content="automatic redirection">
+  <link rel='icon' href='imgs/favicon.png' type='image/x-icon'>
+  <link rel='shortcut icon' href='imgs/favicon.png' type='image/x-icon'>
+  <link rel="apple-touch-icon" href='imgs/favicon_original.png' type='image/x-icon'>
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mikelpint.github.io/Startpage/de.html">
+  <meta name="twitter:url" content="https://mikelpint.github.io/Startpage/de.html">
+  <meta property="og:image" content="https://mikelpint.github.io/Startpage/imgs/favicon_original.png">
+  <meta property="og:title" content="~/Startpage Redirecting... by @mikelpint & @ZeroDot1">
+  <meta property="og:description" content="A simple start page for every browser.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="Startpage">
+  <meta name="twitter:creator" content="@hobbygrafix">
+  <meta name="twitter:title" content="~/Startpage Redirecting... by @mikelpint & @ZeroDot1">
+  <meta name="twitter:description" content="A simple start page for every browser.">
+  <meta name="twitter:image" content="https://mikelpint.github.io/Startpage/imgs/favicon_original.png">
   <title>Redirecting...</title>
 </head>
 
 <body>
   If your browser doesn't automatically go there within a few seconds, you may want to go to<a href="en.html">the destination</a> manually.
+
+  <script type="text/javascript">
+  var userLang = navigator.language || navigator.userLanguage;
+  switch(userLang){
+      case 'de-DE':
+          window.location.href = 'de.html';
+          break;
+      case 'es-ES':
+          window.location.href = 'es.html';
+          break;
+      default:
+          // if it's something else fall back to the default
+          window.location.href = 'en.html';
+          break;
+  }
+</script>
 </body>
 
 </html>
