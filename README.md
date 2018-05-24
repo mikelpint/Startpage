@@ -20,4 +20,4 @@ You can contribute to the project as you want and you can also fork it but the c
 
 **[@danirod](https://github.com/danirod)**: His page has been the inspiration of this website.
 
-**[@PapirusDevelopmentTeam](https://github.com/PapirusDevelopmentTeam/)**: Their are used in this website.
+**[@PapirusDevelopmentTeam](https://github.com/PapirusDevelopmentTeam/)**: Their icons are used in this website.
