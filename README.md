@@ -17,3 +17,5 @@ You can contribute to the project as you want and you can also fork it but the c
 **[@ZeroDot1](https://github.com/ZeroDot1)**: Creator of the Deutsch version and the favicon. He is also the main collaborator and this project is as much mine as his.
 
 **[@danirod](https://github.com/danirod)**: His page has been the inspiration of this website.
+
+**[@PapirusDevelopmentTeam](https://github.com/PapirusDevelopmentTeam/)**: Their are used in this website.
