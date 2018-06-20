@@ -10,8 +10,8 @@
   <link rel='dns-prefetch' href='//*.google.com'>
   <link rel='dns-prefetch' href='//gitlab.com'>
   <link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com'>
-  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous" media="none" onload="if(media!='all')media='all'">
-  <link rel="stylesheet" type="text/css" href="css/main.css" media="none" onload="if(media!='all')media='all'">
+  <link rel="stylesheet" rel="subresource" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous" media="none" onload="if(media!='all')media='all'">
+  <link rel="stylesheet" rel="subresource" type="text/css" href="css/main.css" media="none" onload="if(media!='all')media='all'">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous" async></script>
   <script src='js/main.js' charset="utf-8" async></script>
   <link rel='icon' href='imgs/favicon.png' type='image/x-icon'>
@@ -40,9 +40,9 @@
         <div class="dropdown">
           <li class="links"><button onclick="myFunction()" class="dropbtn" class="links" title="English is selected" style="border-radius: 5px;">Language</button></li>
           <div id="myDropdown" class="dropdown-content">
-            <li class="links"><a class="links" href="es.html">Español</a></li>
-            <li style="font-weight: bold;" class="links"><a class="links" href="en.html">English</a></li>
-            <li class="links"><a class="links" href="de.html">Deutsch</a></li>
+            <li class="links"><a class="links" rel="prerender" href="es.html">Español</a></li>
+            <li style="font-weight: bold;" class="links"><a class="links" rel="prerender" href="en.html">English</a></li>
+            <li class="links"><a class="links" rel="prerender" href="de.html">Deutsch</a></li>
           </div>
         </div>
       </ul>
@@ -50,7 +50,7 @@
   </div>
   <div class="text-center search-query fonts bg">
     <div class="search-box bg fonts">
-      <form action="https://encrypted.google.com/search?q=" method="get">
+      <form rel="preconnect" action="https://encrypted.google.com/search?q=" method="get">
         <input type=hidden name=ie value=UTF-8>
         <input type=hidden name=oe value=UTF-8>
         <input type="hidden" name="lr" value="lang_en" />
