@@ -22,25 +22,7 @@ AddOutputFilterByType DEFLATE application/x-javascript
 SetOutputFilter DEFLATE
 </files>
 
-## EXPIRES CACHING ##
-<IfModule mod_expires.c>
-	ExpiresActive On
-	ExpiresByType image/jpg "access 1 year"
-	ExpiresByType image/jpeg "access 1 year"
-	ExpiresByType image/pjpeg "access 1 year"
-	ExpiresByType image/png "access 1 year"
-	ExpiresByType image/x-icon "access 1 year"
-	ExpiresByType text/css "access 1 month"
-	ExpiresByType application/x-pointplus "access 1 month"
-	ExpiresByType text/html "access 1 month"
-	ExpiresByType application/pdf "access 1 month"
-	ExpiresByType text/javascript "access 1 month"
-	ExpiresByType application/x-javascript "access 1 month"
-	ExpiresByType application/vnd.ms-fontobject "access plus 1 year"
-	ExpiresByType application/x-font-ttf "access plus 1 year"
-	ExpiresByType application/x-font-opentype "access plus 1 year"
-	ExpiresByType application/x-font-woff "access plus 1 year"
-	ExpiresByType image/svg+xml "access plus 1 year"
-	ExpiresDefault "access 1 month"
-</IfModule>
-## EXPIRES CACHING ##
+# One month for most static assets
+<filesMatch ".(css|jpg|jpeg|png|gif|js|ico)$">
+Header set Cache-Control "max-age=2628000, public"
+</filesMatch>
