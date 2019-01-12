@@ -305,6 +305,15 @@ input[type=text]:focus {
   box-shadow: 0 0 5px #333;
 }
 
+.dot{
+    width: 10px;
+    height: 10px;
+    background: red;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
 .dropbtn:hover, .dropbtn:focus {
   background: #171C28;
   outline: none;
