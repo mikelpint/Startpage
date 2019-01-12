@@ -1,55 +1,30 @@
 /*
     Color palettes
 */
-
 /* Background */
-
 /* Current line */
-
 /* Selection */
-
 /* Foreground */
-
 /* Comment */
-
 /* Red */
-
 /* Orange */
-
 /* Yellow */
-
 /* Green */
-
 /* Aqua */
-
 /* Blue */
-
 /* Purple */
-
 /* Background */
-
 /* Current line */
-
 /* Selection */
-
 /* Foreground */
-
 /* Comment */
-
 /* Red */
-
 /* Orange */
-
 /* Yellow */
-
 /* Green */
-
 /* Aqua */
-
 /* Blue */
-
 /* Purple */
-
 .bg {
   background-color: #171C28;
 }
@@ -75,55 +50,30 @@
 /*
     Color palettes
 */
-
 /* Background */
-
 /* Current line */
-
 /* Selection */
-
 /* Foreground */
-
 /* Comment */
-
 /* Red */
-
 /* Orange */
-
 /* Yellow */
-
 /* Green */
-
 /* Aqua */
-
 /* Blue */
-
 /* Purple */
-
 /* Background */
-
 /* Current line */
-
 /* Selection */
-
 /* Foreground */
-
 /* Comment */
-
 /* Red */
-
 /* Orange */
-
 /* Yellow */
-
 /* Green */
-
 /* Aqua */
-
 /* Blue */
-
 /* Purple */
-
 .fonts {
   color: #cccccc;
   font-family: 'Open sans', sans-serif;
@@ -293,55 +243,30 @@ input[type=text]:focus {
 /*
     Color palettes
 */
-
 /* Background */
-
 /* Current line */
-
 /* Selection */
-
 /* Foreground */
-
 /* Comment */
-
 /* Red */
-
 /* Orange */
-
 /* Yellow */
-
 /* Green */
-
 /* Aqua */
-
 /* Blue */
-
 /* Purple */
-
 /* Background */
-
 /* Current line */
-
 /* Selection */
-
 /* Foreground */
-
 /* Comment */
-
 /* Red */
-
 /* Orange */
-
 /* Yellow */
-
 /* Green */
-
 /* Aqua */
-
 /* Blue */
-
 /* Purple */
-
 .links a:link {
   color: #cccccc;
   text-decoration: none;
