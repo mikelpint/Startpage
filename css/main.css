@@ -236,6 +236,7 @@ input.search-query {
   border-radius: 5px;
   background: #171C28;
   color: #cccccc;
+  box-shadow: 0 5px 5px -5px #333;
 }
 
 input:hover {
