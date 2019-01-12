@@ -280,6 +280,10 @@ input[type=text]:focus {
   box-shadow: 0 0 5px #333;
 }
 
+.GButton:hover {
+  filter: grayscale(90%);
+}
+
 #header {
   margin: auto;
   list-style: none;
