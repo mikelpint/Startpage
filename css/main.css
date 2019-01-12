@@ -58,6 +58,7 @@
   margin: auto;
   list-style: none;
   border-bottom: 1px solid #212121;
+  max-height: 60px;
 }
 
 #header ul, #header ol {
@@ -68,7 +69,7 @@
 
 #header h1 {
   color: #cccccc;
-  margin-bottom: 0.2em;
+  margin-bottom: 0.1em;
 }
 
 /*
@@ -133,7 +134,7 @@
 }
 
 body {
-  width: 80%;
+  width: 70%;
   margin: auto;
   min-width: 600px;
   max-width: 4096px;
@@ -277,7 +278,7 @@ input[type=text]:focus {
   height: 55px;
   margin-left: 10px;
   vertical-align: middle;
-  box-shadow: 0 0 5px #333;
+  box-shadow: 0 5px 5px -5px #333;
 }
 
 .GButton:hover {
@@ -418,10 +419,10 @@ input[type=text]:focus {
 
 #footer {
   position: absolute;
-  bottom: -5em;
+  bottom: -0em;
   font-size: 10px;
   z-index: 10;
-  height: 3em;
+  height: 4em;
   right: 0;
   left: 0;
   margin-right: auto;
