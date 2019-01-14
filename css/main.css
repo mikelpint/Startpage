@@ -151,6 +151,7 @@ img {
 
 #list1 .list-title {
   background: #99cc99;
+  cursor: default;
 }
 
 #list2 {
@@ -163,6 +164,7 @@ img {
 
 #list2 .list-title {
   background: #66cccc;
+  cursor: default;
 }
 
 #list3 {
@@ -175,6 +177,7 @@ img {
 
 #list3 .list-title {
   background: #f99157;
+  cursor: default;
 }
 
 #list4 {
@@ -187,6 +190,7 @@ img {
 
 #list4 .list-title {
   background: #cc99cc;
+  cursor: default;
 }
 
 #list5 {
@@ -199,6 +203,7 @@ img {
 
 #list5 .list-title {
   background: #ffcc66;
+  cursor: default;
 }
 
 #list6 {
@@ -211,6 +216,7 @@ img {
 
 #list6 .list-title {
   background: #6699cc;
+  cursor: default;
 }
 
 .search-box {
@@ -250,6 +256,13 @@ input[type=text]:focus {
   width: 300px;
 }
 
+input[type=text]:hover {
+  -webkit-transition: width .35s ease-in-out;
+  transition: width .35s ease-in-out;
+  transition: 2s;
+  border-bottom: 2px solid #d3d3d3;
+}
+
 @viewport {
   zoom: 1.0;
   width: device-width;
@@ -272,6 +285,7 @@ input[type=text]:focus {
 .GButton:hover {
   transition: 2s;
   filter: grayscale(90%);
+  cursor: pointer;
 }
 
 #header {
@@ -324,7 +338,7 @@ input[type=text]:focus {
   color: #337ab7;
   text-decoration: underline;
   background-color: transparent;
-  -webkit-text-decoration-skip: objects;
+  transition: 1s;
 }
 
 .links a:active {
@@ -507,5 +521,6 @@ input[type=text]:focus {
   text-shadow: none;
   opacity: 1;
 }
+
 
 /*# sourceMappingURL=main.css.map */
