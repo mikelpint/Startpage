@@ -19,12 +19,6 @@ window.onclick = function(event) {
   }
 }
 
-$(document).ready(function() {
-  if (!$.browser.webkit) {
-    $('.wrapper').html('<p>Sorry! Non webkit users. :(</p>');
-  }
-});
-
 window.onload=function(){
     	(function() {
     		var visited = localStorage.getItem('visited');
