@@ -12,7 +12,8 @@
   <link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com'>
   <link rel='dns-prefetch' href='//www.googletagmanager.com'>
   <link rel="stylesheet" type="text/css" href="css/main.css">
-  <link rel="stylesheet" rel="subresource" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous" media="none" onload="if(media!='all')media='all'">
+  <link rel="stylesheet" rel="subresource" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"
+    media="none" onload="if(media!='all')media='all'">
   <link rel="stylesheet" rel="subresource" type="text/css" href="css/main.css" media="none" onload="if(media!='all')media='all'">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous" async></script>
   <script src='js/main.js' charset="utf-8" async></script>
@@ -50,6 +51,11 @@
 </head>
 
 <body class="bg fonts body-margin">
+
+  <p class="cookies-warning" id="cookieswarning" style="visibility:hidden;">
+    This site uses cookies. If you continue, you accept the use of cookies.
+    <a href="#close" class="close2" onclick="document.getElementsByClassName('cookies-warning')[0].style.display = 'none';">OK!</a>
+  </p>
 
   <div id="header" class="body-margin">
     <nav>

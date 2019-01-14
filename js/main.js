@@ -25,4 +25,12 @@ $(document).ready(function() {
   }
 });
 
-window.status = "";
+window.onload=function(){
+    	(function() {
+    		var visited = localStorage.getItem('visited');
+    		if (!visited) {
+    			document.getElementById('cookieswarning').style.visibility = 'visible';
+    			localStorage.setItem('visited', true);
+    		}
+    	})();
+    	}
