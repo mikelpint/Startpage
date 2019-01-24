@@ -11,7 +11,8 @@
   <link rel='dns-prefetch' href='//gitlab.com'>
   <link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com'>
   <link rel='dns-prefetch' href='//www.googletagmanager.com'>
-  <link rel="stylesheet" rel="subresource" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous" media="none" onload="if(media!='all')media='all'">
+  <link rel="stylesheet" rel="subresource" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"
+    media="none" onload="if(media!='all')media='all'">
   <link rel="stylesheet" rel="subresource" type="text/css" href="css/main.css" media="none" onload="if(media!='all')media='all'">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous" async></script>
   <script src='js/main.js' charset="utf-8" async></script>
@@ -49,12 +50,18 @@
 </head>
 
 <body class="bg fonts body-margin">
+
+  <p class="cookies-warning" id="cookieswarning" style="visibility:hidden;">
+    This site uses cookies. If you continue, you accept the use of cookies.
+    <a href="#close" class="close2" onclick="document.getElementsByClassName('cookies-warning')[0].style.display = 'none';">OK!</a>
+  </p>
+
   <div id="header" class="body-margin">
     <nav>
       <h1 onclick="location.href='en.html';">~/Startpage</h1>
       <ul>
         <div class="dropdown">
-          <li class="links"><button onclick="myFunction()" class="dropbtn" class="links" title="English is selected" style="border-radius: 5px;">Language</button></li>
+          <li class="links"><button onclick="myFunction()" class="dropbtn" class="links" title="English is selected" style="border-radius: 5px;"><img class="link-images" src="imgs/language-icon.png">Language</button></li>
           <div id="myDropdown" class="dropdown-content">
             <li class="links"><a class="links" rel="prerender" href="es.html">Español</a></li>
             <li style="font-weight: bold;" class="links"><a class="links" rel="prerender" href="en.html">English</a></li>
@@ -66,13 +73,13 @@
   </div>
   <div class="text-center search-query fonts bg">
     <div class="search-box bg fonts">
-      <form rel="preconnect" action="https://encrypted.google.com/search?q=" method="get">
+      <form rel="preconnect" action="https://google.com/search?q=" method="get">
         <input type=hidden name=ie value=UTF-8>
         <input type=hidden name=oe value=UTF-8>
-        <input type="hidden" name="lr" value="lang_en" />
-        <input type="hidden" name="sitesearch" />
-        <input required="required" autocomplete="off" autofocus readonly onfocus="this.removeAttribute('readonly');" type="text" name="q" placeholder="Search..." class="search-query" />
-        <input type=image name=GButton src="imgs/google.png" class="GButton" class="dropbtn">
+        <input type="hidden" name="lr" value="lang_en">
+        <input type="hidden" name="sitesearch">
+        <input required="required" autocomplete="off" autofocus readonly onfocus="this.removeAttribute('readonly');" type="text" name="q" placeholder="Search&hellip;" class="search-query">
+        <input type=image name=G src="imgs/google.png" class="GButton" class="dropbtn">
         <!-- Note: The autofocus attribute of the input tag is not supported in Internet Explorer 9 and earlier versions. -->
       </form>
     </div>

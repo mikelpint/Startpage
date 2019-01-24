@@ -19,10 +19,12 @@ window.onclick = function(event) {
   }
 }
 
-$(document).ready(function() {
-  if (!$.browser.webkit) {
-    $('.wrapper').html('<p>Sorry! Non webkit users. :(</p>');
-  }
-});
-
-window.status = "";
+window.onload=function(){
+    	(function() {
+    		var visited = localStorage.getItem('visited');
+    		if (!visited) {
+    			document.getElementById('cookieswarning').style.visibility = 'visible';
+    			localStorage.setItem('visited', true);
+    		}
+    	})();
+    	}
