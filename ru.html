@@ -1,7 +1,7 @@
 <!-- English version -->
 
 <!DOCTYPE html>
-<html lang="en" class="fonts" style="min-height:100%;position:relative;">
+<html lang="ru" class="fonts" style="min-height:100%;position:relative;">
 
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -33,40 +33,40 @@
   <link rel="apple-touch-icon" href='imgs/favicon_original.png' type='image/x-icon'>
   <meta name="theme-color" content="#2d2d2d">
   <link rel="icon" sizes="192x192" href="imgs/favicon_original.png">
-  <meta name="Description" content="A simple start page with multilingual support for every browser.">
+  <meta name="Description" content="Простая стартовая страница с многоязычной поддержкой для каждого браузера.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://zerodot1.gitlab.io/Startpage/de.html">
   <meta name="twitter:url" content="https://zerodot1.gitlab.io/Startpage/de.html">
   <meta property="og:image" content="https://zerodot1.gitlab.io/Startpage/imgs/favicon_original.png">
-  <meta property="og:title" content="~/Startpage English by @mikelpint & @ZeroDot1">
-  <meta property="og:description" content="A simple start page for every browser.">
+  <meta property="og:title" content="~/главная страница Русский от @mikelpint & @ZeroDot1">
+  <meta property="og:description" content="Простая стартовая страница с многоязычной поддержкой для каждого браузера.">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="Startpage">
+  <meta name="twitter:site" content="главная страница">
   <meta name="twitter:creator" content="@hobbygrafix">
-  <meta name="twitter:title" content="~/Startpage English by @mikelpint & @ZeroDot1">
-  <meta name="twitter:description" content="A simple start page for every browser.">
+  <meta name="twitter:title" content="~/главная страница Русский от @mikelpint & @ZeroDot1">
+  <meta name="twitter:description" content="Простая стартовая страница с многоязычной поддержкой для каждого браузера.">
   <meta name="twitter:image" content="https://zerodot1.gitlab.io/Startpage/imgs/favicon_original.png">
-  <title>~/Startpage</title>
+  <title>~/главная страница</title>
 </head>
 
 <body class="bg fonts body-margin">
 
   <p class="cookies-warning" id="cookieswarning" style="visibility:hidden;">
-    This site uses cookies. If you continue, you accept the use of cookies.
+    Этот сайт использует файлы cookie. Если вы продолжите, вы согласитесь с использованием cookie-файлов.
     <a href="#close" class="close2" onclick="document.getElementsByClassName('cookies-warning')[0].style.display = 'none';">OK!</a>
   </p>
 
   <div id="header" class="body-margin">
     <nav>
-      <h1 onclick="location.href='en.html';">~/Startpage</h1>
+      <h1 onclick="location.href='ru.html';">~главная страница</h1>
       <ul>
         <div class="dropdown">
           <li class="links"><button onclick="myFunction()" class="dropbtn" class="links" title="English is selected" style="border-radius: 5px;"><img class="link-images" src="imgs/language-icon.png">Language</button></li>
           <div id="myDropdown" class="dropdown-content">
             <li class="links"><a class="links" rel="prerender" href="es.html">Español</a></li>
-            <li style="font-weight: bold;" class="links"><a class="links" rel="prerender" href="en.html">English</a></li>
+            <li class="links"><a class="links" rel="prerender" href="en.html">English</a></li>
             <li class="links"><a class="links" rel="prerender" href="de.html">Deutsch</a></li>
-            <li class="links"><a class="links" rel="prerender" href="ru.html">Русский</a></li>
+            <li style="font-weight: bold;" class="links"><a class="links" rel="prerender" href="ru.html">Русский</a></li>
           </div>
         </div>
       </ul>
@@ -74,19 +74,19 @@
   </div>
   <div class="text-center search-query fonts bg">
     <div class="search-box bg fonts">
-      <form rel="preconnect" action="https://google.com/search?q=" method="get">
+      <form rel="preconnect" action="https://google.ru/search?q=" method="get">
         <input type=hidden name=ie value=UTF-8>
         <input type=hidden name=oe value=UTF-8>
-        <input type="hidden" name="lr" value="lang_en">
+        <input type="hidden" name="lr" value="lang_ru">
         <input type="hidden" name="sitesearch">
-        <input required="required" autocomplete="off" autofocus readonly onfocus="this.removeAttribute('readonly');" type="text" name="q" placeholder="Search&hellip;" class="search-query">
+        <input required="required" autocomplete="off" autofocus readonly onfocus="this.removeAttribute('readonly');" type="text" name="q" placeholder="Поиск&hellip;" class="search-query">
         <input type=image name=G src="imgs/google.png" class="GButton" class="dropbtn">
         <!-- Note: The autofocus attribute of the input tag is not supported in Internet Explorer 9 and earlier versions. -->
       </form>
     </div>
   </div>
   <div class="fonts lists col-md-3" id="list1">
-    <h3 name="essential" class="list-title" onclick="location.href='#essential';">Essential</h3>
+    <h3 name="essential" class="list-title" onclick="location.href='#essential';">Существенный</h3>
     <ul>
       <li class="links"><a class="links" href="https://inbox.google.com/">Inbox</a></li>
       <li class="links"><a class="links" href="https://web.whatsapp.com/">Whatsapp</a></li>
@@ -95,7 +95,7 @@
     </ul>
   </div>
   <div class="fonts lists col-md-3" id="list2">
-    <h3 name="coding" class="list-title" onclick="location.href='#coding';">Coding</h3>
+    <h3 name="coding" class="list-title" onclick="location.href='#coding';">Кодирование</h3>
     <ul>
       <li class="links"><a class="links" href="https://github.com">GitHub</a></li>
       <li class="links"><a class="links" href="http://travisci.org">Travis CI</a></li>
@@ -105,7 +105,7 @@
     </ul>
   </div>
   <div class="fonts lists col-md-3" id="list3">
-    <h3 name="news" class="list-title" onclick="location.href='#news';">News</h3>
+    <h3 name="news" class="list-title" onclick="location.href='#news';">Новости</h3>
     <ul>
       <li class="links"><a class="links" href="http://20minutos.es">20minutos</a></li>
       <li class="links"><a class="links" href="https://feedly.com">Feedly</a></li>
@@ -118,7 +118,7 @@
     </ul>
   </div>
   <div class="fonts lists col-md-3" id="list4">
-    <h3 name="social" class="list-title" onclick="location.href='#social';">Social</h3>
+    <h3 name="social" class="list-title" onclick="location.href='#social';">Социальный</h3>
     <ul>
       <li class="links"><a class="links" href="https://youtube.com">YouTube</a></li>
       <li class="links"><a class="links" href="https://twitter.com/">Twitter</a></li>
@@ -131,7 +131,7 @@
   </div>
   <div align="center" id="footer">
     <img class="link-images" src="https://about.gitlab.com/ico/favicon.ico"><a href="https://gitlab.com/ZeroDot1/Startpage" target="_blank"> GitLab - Startpage</a>
-    <p>Translated by: <a href="https://gitlab.com/mikelpint" target="_blank">Mikel Pintado</a></p>
+    <p>Переведено от: <a href="https://gitlab.com/ZeroDot1" target="_blank">ZeroDot1</a></p>
     <br />
   </div>
 </body>
