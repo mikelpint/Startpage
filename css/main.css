@@ -244,7 +244,7 @@ input:hover {
 }
 
 input[type=text] {
-  width: 270px;
+  width: 300px;
   -webkit-transition: width .35s ease-in-out;
   transition: width .35s ease-in-out;
   caret-color: #BBDF07;
@@ -253,7 +253,7 @@ input[type=text] {
 
 input[type=text]:focus {
   outline: none;
-  width: 300px;
+  width: 360px;
 }
 
 input[type=text]:hover {
