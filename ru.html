@@ -7,10 +7,11 @@
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel='dns-prefetch' href='//*.google.com'>
+  <link rel='preconnect' href='//*.startpage.com'>
   <link rel='dns-prefetch' href='//gitlab.com'>
   <link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com'>
-  <link rel='dns-prefetch' href='//www.googletagmanager.com'>
+  <link rel='dns-prefetch' href='//*.googletagmanager.com'>
+  <link rel='dns-prefetch' href='//*.google.com'>
   <link rel="stylesheet" rel="preload" type="text/css" <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"
     media="none" onload="if(media!='all')media='all'">
   <link rel="stylesheet" rel="preload" type="text/css" href="css/main.css" media="none" onload="if(media!='all')media='all'">
@@ -31,7 +32,7 @@
   <link rel='icon' href='imgs/favicon.png' type='image/x-icon'>
   <link rel='shortcut icon' href='imgs/favicon.png' type='image/x-icon'>
   <link rel="apple-touch-icon" href='imgs/favicon_original.png' type='image/x-icon'>
-  <meta name="theme-color" content="#2d2d2d">
+  <meta name="theme-color" content="#171C28">
   <link rel="icon" sizes="192x192" href="imgs/favicon_original.png">
   <meta name="Description" content="Простая стартовая страница с многоязычной поддержкой для каждого браузера.">
   <meta property="og:type" content="website">
@@ -74,13 +75,18 @@
   </div>
   <div class="text-center search-query fonts bg">
     <div class="search-box bg fonts">
-      <form rel="preconnect" action="https://google.ru/search?q=" method="get">
+      <form rel="preconnect" action="https://www.startpage.com/do/search?&t=dark" method="post" data-set-get-method role="search" itemprop="potentialAction" itemscope="" itemtype="http://schema.org/SearchAction" data-set-query-param="true">
+        <meta itemprop="target" content="/do/search?&t=dark&query={query}">
         <input type=hidden name=ie value=UTF-8>
         <input type=hidden name=oe value=UTF-8>
-        <input type="hidden" name="lr" value="lang_ru">
+        <input type="hidden" name="cat" value="web">
+        <input type="hidden" name="cmd" value="process_search">
+        <input type="hidden" name="language" value="deutsch">
         <input type="hidden" name="sitesearch">
-        <input required="required" autocomplete="off" autofocus readonly onfocus="this.removeAttribute('readonly');" type="text" name="q" placeholder="Поиск&hellip;" class="search-query">
-        <input type=image name=G src="imgs/google.png" class="GButton" class="dropbtn">
+        <input type="hidden" name="engine0" value="v1all">
+        <input required="required" autocomplete="off" autofocus readonly onfocus="this.removeAttribute('readonly');" type="text" itemprop="query-input" data-search-suggestions-trigger="header-form" name="q" placeholder="Поиск в Интернете с начальной страницы&hellip;"
+          class="search-query" title="Das Suchfeld ist bei Seitenaufruf im Fokus so das sie ihren Suchbegriff nur noch eintippen müssen um die Suche zu starten.">
+        <input type=image name=STP src="imgs/Startpage.jpg" class="GButton" class="dropbtn" alt="Кнопка с изображением для начала поиска." title="Нажмите, чтобы начать безопасный поиск&hellip;">
         <!-- Note: The autofocus attribute of the input tag is not supported in Internet Explorer 9 and earlier versions. -->
       </form>
     </div>
