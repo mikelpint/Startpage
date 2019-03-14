@@ -1,55 +1,78 @@
 .search-box {
-    margin-left: 6em;
-    padding: 2em;
-    margin-top: 2em;
-    background-color: $bg;
+  margin-left: 6em;
+  padding: 2em;
+  margin-top: 2em;
+  background-color: $bg;
 }
 
 input.search-query {
-    margin-left: 2em;
-    width: 25%;
-    box-sizing: border-box;
-    font-size: 20pt;
-    border: 1px;
-    border-radius: 5px;
-    background: $bg;
-    color: $fg;
+  margin-left: 2em;
+  width: 25%;
+  box-sizing: border-box;
+  font-size: 20pt;
+  border: 1px;
+  border-radius: 5px;
+  background: $bg;
+  color: $fg;
+  box-shadow: 0 5px 5px -5px #333;
 }
 
 input:hover {
-    box-shadow: 0 0 5px $color_31, 0 0 10px $color_31, 0 0 15px $color_31, 0 0 20px $color_31;
+  transition: 2s;
+  box-shadow: 0 0 5px $color_31, 0 0 10px $color_31, 0 0 15px $color_31, 0 0 20px $color_31;
 }
 
 input[type=text] {
-    width: 270px;
-    -webkit-transition: width .35s ease-in-out;
-    transition: width .35s ease-in-out;
+  width: 300px;
+  -webkit-transition: width .35s ease-in-out;
+  transition: width .35s ease-in-out;
+  caret-color: #BBDF07;
+  transition: 2s;
 }
 
 input[type=text]:focus {
-    outline: none;
-    width: 300px;
+  outline: none;
+  width: 360px;
+}
+
+input[type=text]:hover {
+  -webkit-transition: width .35s ease-in-out;
+  transition: width .35s ease-in-out;
+  transition: 2s;
+  border-bottom: 2px solid #d3d3d3;
 }
 
 @viewport {
-      zoom: 1.0;
-      width: device-width;
-    }
-    
-     .bg {
-       background-color: #2d2d2d;
-     }
-     
-    .GButton {
-      border-radius: 5px;
-      filter: grayscale(100%);
-      width: 55px;
-      height: 55px;
-      margin-left: 10px;
-      vertical-align: middle;
-    }
-    
-     #header {
-       margin: auto;
-       list-style: none;
-     }
+  zoom: 1.0;
+  width: device-width;
+}
+
+.bg {
+  background-color: $bg;
+}
+
+.GButton {
+  border-radius: 5px;
+  filter: grayscale(100%);
+  width: 55px;
+  height: 55px;
+  margin-left: 10px;
+  vertical-align: middle;
+  box-shadow: 0 5px 5px -5px #333;
+}
+
+.GButton:hover {
+  transition: 2s;
+  filter: grayscale(90%);
+  cursor: pointer;
+}
+
+#header {
+  margin: auto;
+  list-style: none;
+}
+
+#header {
+  margin: auto;
+  list-style: none;
+}

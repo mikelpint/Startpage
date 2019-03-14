@@ -1,0 +1,14 @@
+{
+  "editor.tabSize": 2,
+  "beautify.tabSize": 2,
+  "editor.detectIndentation": false,
+  
+  "liveSassCompile.settings.formats":[
+    // This is Default.
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "~/../css"
+    },
+  ]
+}
