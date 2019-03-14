@@ -1,27 +1,27 @@
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  box-shadow: inset 0 0 6px #333;
+  -webkit-box-shadow: inset 0 0 6px #333;
   border-radius: 8px;
 }
 
 ::-webkit-scrollbar {
-  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px #333;
+  -webkit-box-shadow: inset 0 0 6px #333;
   width: 9px;
-  background-color: #2d2d2d;
+  background-color: $bg;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.5, transparent), to(transparent));
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0.5, rgba(255, 255, 255, 0.2)), color-stop(0.5, transparent), to(transparent));
   border: 1px dotted red;
   border-radius: 8px;
   background-color: #0ae;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: red;
+  background: $color_33;
 }
 
 ::-webkit-scrollbar-thumb:active {
-  background: green;
+  background: $color_36;
 }
