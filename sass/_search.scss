@@ -52,7 +52,7 @@ input[type=text]:hover {
 }
 
 .GButton {
-  border-radius: 5px;
+  border-radius: 100px;
   filter: grayscale(100%);
   width: 55px;
   height: 55px;
@@ -63,16 +63,6 @@ input[type=text]:hover {
 
 .GButton:hover {
   transition: 2s;
-  filter: grayscale(90%);
+  filter: grayscale(80%);
   cursor: pointer;
-}
-
-#header {
-  margin: auto;
-  list-style: none;
-}
-
-#header {
-  margin: auto;
-  list-style: none;
 }
