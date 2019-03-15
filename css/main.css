@@ -269,6 +269,11 @@ input[type=text]:hover {
   border-bottom: 2px solid #d3d3d3;
 }
 
+@viewport {
+  zoom: 1.0;
+  width: device-width;
+}
+
 @-ms-viewport {
   zoom: 1.0;
   width: device-width;
@@ -279,16 +284,13 @@ input[type=text]:hover {
   width: device-width;
 }
 
-@viewport {
-  zoom: 1.0;
-  width: device-width;
-}
-
 .bg {
   background-color: #171C28;
 }
 
 .GButton {
+  -webkit-filter: grayscale(80%);
+  filter: grayscale(80%);
   border-radius: 100px;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);

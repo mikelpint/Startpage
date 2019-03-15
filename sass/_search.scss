@@ -47,11 +47,23 @@ input[type=text]:hover {
   width: device-width;
 }
 
+@-ms-viewport {
+  zoom: 1.0;
+  width: device-width;
+}
+
+@-o-viewport {
+  zoom: 1.0;
+  width: device-width;
+}
+
 .bg {
   background-color: $bg;
 }
 
 .GButton {
+  -webkit-filter: grayscale(80%);
+  filter: grayscale(80%);
   border-radius: 100px;
   filter: grayscale(100%);
   width: 55px;
