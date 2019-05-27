@@ -4,7 +4,7 @@ pages:
   - mkdir .public
   - cp -r * .public
   - mv .public public
-  - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -exec gzip -9 -f -k {} \;
+  - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\|svg\|scss\|png\)$' -exec gzip -9 -f -kvr {} \;
   artifacts:
     paths:
     - public
