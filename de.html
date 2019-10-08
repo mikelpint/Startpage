@@ -50,28 +50,14 @@
 
   <script async language="JavaScript">
     <!--
-
     // Test for automatic deletion of cookies.
-    function clearListCookies() {
-      var cookies = document.cookie.split(";");
-      for (var i = 0; i < cookies.length; i++) {
-        var spcook = cookies[i].split("=");
-        deleteCookie(spcook[0]);
-      }
 
-      function deleteCookie(cookiename) {
-        var d = new Date();
-        d.setDate(d.getDate() - 1);
-        var expires = ";expires=" + d;
-        var name = cookiename;
-        //alert(name);
-        var value = "";
-        document.cookie = name + "=" + value + expires + "; path=/";
-      }
-      document.cookie.split(";").forEach(function(c) { document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/"); });
-      window.location = ""; // TO REFRESH THE PAGE
-    }
-    //
+    // ACR 4
+    function clearCookie(name, domain, path) {
+      var domain = domain || document.domain;
+      var path = path || "/";
+      document.cookie = name + "=; expires=" + +new Date + "; domain=" + domain + "; path=" + path;
+    };
     -->
   </script>
 
