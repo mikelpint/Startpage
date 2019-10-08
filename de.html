@@ -48,9 +48,11 @@
   <meta name="twitter:description" content="Eine einfache Startseite mit mehrsprachiger Unterstützung für jeden Browser.">
   <meta name="twitter:image" content="https://zerodot1.gitlab.io/Startpage/imgs/favicon_original.png">
   <title>~/Startseite</title>
+
 </head>
 
 <body class="bg fonts body-margin">
+  <p id="list"></p>
 
   <p class="cookies-warning" id="cookieswarning" style="visibility:hidden;">
     Diese Webseite verwendet Cookies. Wenn Sie die Webseite weiter nutzen, gehen wir von Ihrem Einverständnis aus.
@@ -85,8 +87,8 @@
           <input type="hidden" name="language" value="deutsch">
           <input type="hidden" name="sitesearch">
           <input type="hidden" name="engine0" value="v1all">
-          <input required="required" autocomplete="off" autofocus readonly onfocus="this.removeAttribute('readonly');" type="text" itemprop="query-input" data-search-suggestions-trigger="header-form" name="q" placeholder="Websuche mit Startpage&hellip;"
-            class="search-query" title="Das Suchfeld ist bei Seitenaufruf im Fokus so das sie ihren Suchbegriff nur noch eintippen müssen um die Suche zu starten.">
+          <input required="required" autocomplete="off" autofocus readonly onfocus="this.removeAttribute('readonly');" type="text" itemprop="query-input" data-search-suggestions-trigger="header-form" name="q"
+            placeholder="Websuche mit Startpage&hellip;" class="search-query" title="Das Suchfeld ist bei Seitenaufruf im Fokus so das sie ihren Suchbegriff nur noch eintippen müssen um die Suche zu starten.">
           <input type=image name=STP src="imgs/Startpage.jpg" loading="lazy" class="GButton" class="dropbtn" alt="Button mit Bild um die Suche zu starten." title="Klicken um die sichere Suche zu starten&hellip;">
           <!-- Note: The autofocus attribute of the input tag is not supported in Internet Explorer 9 and earlier versions. -->
         </form>
@@ -99,12 +101,16 @@
           <h3 name="essential" class="list-title" onclick="location.href='#essential';">Essenzielles</h3>
           <ul>
             <li class="links"><img class="link-images" src="https://my.mail.de/img/icons/apple-touch-icon-72x72-precomposed.png" loading="lazy"><a class="links" rel="preconnect" href="https://my.mail.de/"> Mail.DE Login</a></li>
-            <li class="links"><img class="link-images" src="http://icons.iconarchive.com/icons/papirus-team/papirus-apps/32/google-docs-icon.png" loading="lazy"><a class="links" rel="preconnect" href="https://docs.google.com/document/u/0/"> Google Docs</a></li>
+            <li class="links"><img class="link-images" src="http://icons.iconarchive.com/icons/papirus-team/papirus-apps/32/google-docs-icon.png" loading="lazy"><a class="links" rel="preconnect" href="https://docs.google.com/document/u/0/"> Google
+                Docs</a></li>
             <li class="links"><img class="link-images" src="https://www.wetter.com/favicon.ico" loading="lazy"><a class="links" rel="preconnect" href="https://www.wetter.com/"> Wettter.com</a></li>
-            <li class="links"><img class="link-images" src="https://www.deezer.com/favicon.ico" loading="lazy"><a class="links" rel="preconnect" href="https://www.deezer.com/login?redirect_type=page&redirect_link=%2Fde%2F"> Deezer - Musik-Streaming</a></li>
+            <li class="links"><img class="link-images" src="https://www.deezer.com/favicon.ico" loading="lazy"><a class="links" rel="preconnect" href="https://www.deezer.com/login?redirect_type=page&redirect_link=%2Fde%2F"> Deezer -
+                Musik-Streaming</a></li>
             <li class="links"><img class="link-images" src="https://www.deepl.com/img/favicon/favicon_32.png" loading="lazy"><a class="links" rel="preconnect" href="https://www.deepl.com/translator"> DeepL Translator</a></li>
-            <li class="links"><img class="link-images" src="https://icons.iconarchive.com/icons/papirus-team/papirus-apps/32/gmail-icon.png" loading="lazy"><a class="links" rel="preconnect" href="https://mail.google.com/mail/u/0/#inbox"> Google Mail</a></li>
-            <li class="links"><img class="link-images" src="https://www.hardwaredealz.com/wp-content/themes/hwdlz/ico/favicon.ico" loading="lazy"><a class="links" rel="preconnect" href="https://www.hardwaredealz.com/forum/whats-new/"> HardwareDealz Forum</a></li>
+            <li class="links"><img class="link-images" src="https://icons.iconarchive.com/icons/papirus-team/papirus-apps/32/gmail-icon.png" loading="lazy"><a class="links" rel="preconnect" href="https://mail.google.com/mail/u/0/#inbox"> Google
+                Mail</a></li>
+            <li class="links"><img class="link-images" src="https://www.hardwaredealz.com/wp-content/themes/hwdlz/ico/favicon.ico" loading="lazy"><a class="links" rel="preconnect" href="https://www.hardwaredealz.com/forum/whats-new/"> HardwareDealz
+                Forum</a></li>
             <li class="links"><img class="link-images" src="https://www.hoerspielprojekt.de/favicon.ico" loading="lazy"><a class="links" rel="preconnect" href="https://www.hoer-talk.de/taigachat/"> Hörtalk Community</a></li>
             <li class="links"><img class="link-images" src="https://e.mail.ru/favicon.ico" loading="lazy"><a class="links" rel="preconnect" href="https://e.mail.ru/cgi-bin/login?lang=en_US"> Mail.Ru Email</a></li>
             <li class="links"><img class="link-images" src="https://login.live.com/favicon.ico" loading="lazy"><a class="links" rel="preconnect" href="https://outlook.live.com/owa/"> Outlook.Com Email</a></li>
@@ -129,14 +135,18 @@
             <li class="links"><img class="link-images" src="https://www.heise.de/favicon.ico" loading="lazy"><a class="links" rel="preconnect" href="https://www.heise.de/"> Heise.de</a></li>
             <li class="links"><img class="link-images" src="https://www.golem.de/favicon.ico" loading="lazy"><a class="links" rel="preconnect" href="https://www.golem.de/"> Golem.de</a></li>
             <li class="links"><img class="link-images" src="https://news.ycombinator.com/favicon.ico" loading="lazy"><a class="links" rel="preconnect" href="https://thehackernews.com/"> Hacker News</a></li>
-            <li class="links"><img class="link-images" src="https://www.admin-magazin.de/extension/adminmag/design/admin_fe/images/favicon.ico" loading="lazy"><a class="links" rel="preconnect" href="http://www.admin-magazin.de/"> Admin - Magazin</a></li>
+            <li class="links"><img class="link-images" src="https://www.admin-magazin.de/extension/adminmag/design/admin_fe/images/favicon.ico" loading="lazy"><a class="links" rel="preconnect" href="http://www.admin-magazin.de/"> Admin - Magazin</a>
+            </li>
             <li class="links"><img class="link-images" src="https://www.tagesschau.de/favicon.ico" loading="lazy"><a class="links" rel="preconnect" href="https://www.tagesschau.de/"> Tagesschau.de</a></li>
             <li class="links"><img class="link-images" src="https://mobil.n-tv.de/favicon.ico" loading="lazy"><a class="links" rel="preconnect" href="https://www.n-tv.de/"> Ntv.de</a></li>
             <li class="links"><img class="link-images" src="https://www.welt.de/favicon.ico" loading="lazy"><a class="links" rel="preconnect" href="https://www.welt.de/"> Welt.de - N24</a></li>
-            <li class="links"><img class="link-images" src="https://www.cyberciti.biz/cms/wp-content/themes/cybercity/assets/images/icon/favicon-32x32.png" loading="lazy"><a class="links" rel="preconnect" href="https://www.cyberciti.biz/"> nix Craft</a></li>
+            <li class="links"><img class="link-images" src="https://www.cyberciti.biz/cms/wp-content/themes/cybercity/assets/images/icon/favicon-32x32.png" loading="lazy"><a class="links" rel="preconnect" href="https://www.cyberciti.biz/"> nix
+                Craft</a></li>
             <li class="links"><img class="link-images" src="https://www.tecmint.com/wp-content/uploads/2015/01/tecmint_square_logo.png" loading="lazy"><a class="links" rel="preconnect" href="https://www.tecmint.com/"> Tecmint.com</a></li>
-            <li class="links"><img class="link-images" src="https://www.linuxtoday.com/img/apple-touch-icon-iphone.png" loading="lazy"><a class="links" rel="preconnect" href="https://www.linuxtoday.com/"> Linux Today - Linux News on Internet Time</a></li>
-            <li class="links"><img class="link-images" src="https://www.linux.com/sites/all/themes/custom/lcom/favicon.ico" loading="lazy"><a class="links" rel="preconnect" href="https://www.linux.com/"> Linux.com - News for the open source professional</a></li>
+            <li class="links"><img class="link-images" src="https://www.linuxtoday.com/img/apple-touch-icon-iphone.png" loading="lazy"><a class="links" rel="preconnect" href="https://www.linuxtoday.com/"> Linux Today - Linux News on Internet Time</a>
+            </li>
+            <li class="links"><img class="link-images" src="https://www.linux.com/sites/all/themes/custom/lcom/favicon.ico" loading="lazy"><a class="links" rel="preconnect" href="https://www.linux.com/"> Linux.com - News for the open source
+                professional</a></li>
             <li class="links"><img class="link-images" src="https://stadt-bremerhaven.de/favicon.ico" loading="lazy"><a class="links" rel="preconnect" href="https://stadt-bremerhaven.de/"> Caschys Blog</a></li>
             <li class="links"><img class="link-images" src="https://www.zdnet.de/favicon.ico" loading="lazy"><a class="links" rel="preconnect" href="https://www.zdnet.de/"> ZDNet.de | Alle Seiten der IT</a></li>
           </ul>
@@ -164,7 +174,8 @@
             <li class="links"><img class="link-images" src="https://pages.ebay.com/favicon.ico" loading="lazy"><a class="links" href="https://www.ebay-kleinanzeigen.de/"> Ebay Kleinanzeigen</a></li>
             <li class="links"><img class="link-images" src="https://www.pcbilliger.de/media/unknown/61/70/ea/pcb-icon.ico" loading="lazy"><a class="links" rel="preconnect" href="https://www.pcbilliger.de/"> PCBilliger Online Shop</a></li>
             <li class="links"><img class="link-images" src="https://www.medion.com/favicon.ico" loading="lazy"><a class="links" rel="preconnect" href="https://www.medion.com/de/shop/"> MEDION Online Shop</a></li>
-            <li class="links"><img class="link-images" src="https://www.pollin.de/themes/Frontend/Pollin/frontend/_public/src/img/favicon.ico" loading="lazy"><a class="links" rel="preconnect" href="https://www.pollin.de/"> Pollin Electronic Online Shop</a></li>
+            <li class="links"><img class="link-images" src="https://www.pollin.de/themes/Frontend/Pollin/frontend/_public/src/img/favicon.ico" loading="lazy"><a class="links" rel="preconnect" href="https://www.pollin.de/"> Pollin Electronic Online
+                Shop</a></li>
             <li class="links"><img class="link-images" src="https://hardwarerat.de/media/image/42/bf/5d/HRnb4wGJdYIbQkc.png" loading="lazy"><a class="links" rel="preconnect" href="https://hardwarerat.de/"> Hardwarerat GMBH Shop</a></li>
           </ul>
         </div>
@@ -177,7 +188,8 @@
             <li class="links"><img class="link-images" src="https://flagfox.net/favicon.ico" loading="lazy"><a class="links" rel="preconnect" href="https://iplookup.flagfox.net/"> Geotool</a></li>
             <li class="links"><img class="link-images" src="https://pulsedive.com/favicon.ico" loading="lazy"><a class="links" rel="preconnect" href="https://www.pulsedive.com/"> Pulsedive</a></li>
             <li class="links"><img class="link-images" src="https://threatfeeds.io/favicon.ico" loading="lazy"><a class="links" rel="preconnect" href="https://www.threatfeeds.io/"> threatfeeds.io</a></li>
-            <li class="links"><img class="link-images" src="https://lh3.googleusercontent.com/27ZTAzl8ILtqI8_tzwjAzTP70HQB4vCJt4Abk7vuQKQ5ZLKFaM5dwBHsAOb9bbmEDyDo1Jl9CmIUZQPezvmSs7h3qmlpvL9RdhX2ZQ=h128" loading="lazy"><a class="links" rel="preconnect" href="https://analytics.google.com/analytics/web/#/">
+            <li class="links"><img class="link-images" src="https://lh3.googleusercontent.com/27ZTAzl8ILtqI8_tzwjAzTP70HQB4vCJt4Abk7vuQKQ5ZLKFaM5dwBHsAOb9bbmEDyDo1Jl9CmIUZQPezvmSs7h3qmlpvL9RdhX2ZQ=h128" loading="lazy"><a class="links"
+                rel="preconnect" href="https://analytics.google.com/analytics/web/#/">
                 Google Analytics</a></li>
             <li class="links"><img class="link-images" src="https://www.hybrid-analysis.com/favicon.ico" loading="lazy"><a class="links" rel="preconnect" href="https://www.hybrid-analysis.com/"> Hybrid Analysis</a></li>
             <li class="links"><img class="link-images" src="imgs/favicon.png" loading="lazy"><a class="links" rel="preconnect" href="https://sonarwhal.com/scanner/"> Sonarwhal's online version</a></li>
@@ -191,6 +203,22 @@
       <p>Übersetzt von: <a rel="preconnect" href="https://twitter.com/hobbygrafix?lang=de" target="_blank">ZeroDot1</a></p>
       <br />
     </div>
+
+      <script async language="JavaScript">
+        <!--
+        expireAt = new Date;
+        expireAt.setMonth(expireAt.getMonth() - 1);
+
+        if (document.cookie != "") {
+          crumbs = document.cookie.split(";");
+          for (i = 0; i < crumbs.length; i++) {
+            crumbName = crumbs[i].split("=")[0];
+            document.cookie = crumbName + "=;expires=" + expireAt.toGMTString();
+          }
+        }
+        //
+        -->
+      </script>
 </body>
 
 </html>
