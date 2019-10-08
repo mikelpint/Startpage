@@ -50,14 +50,25 @@
 
   <script async language="JavaScript">
     <!--
-    // Test for automatic deletion of cookies.
-
     // ACR 4
     function clearCookie(name, domain, path) {
       var domain = domain || document.domain;
       var path = path || "/";
       document.cookie = name + "=; expires=" + +new Date + "; domain=" + domain + "; path=" + path;
     };
+    //
+    function setCookie(name, value, seconds) {
+
+      if (typeof(seconds) != 'undefined') {
+        var date = new Date();
+        date.setTime(date.getTime() + (seconds * 1000));
+        var expires = "; expires=" + date.toGMTString();
+      } else {
+        var expires = "";
+      }
+
+      document.cookie = name + "=" + value + expires + "; path=/";
+    }
     -->
   </script>
 
