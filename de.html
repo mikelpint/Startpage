@@ -47,6 +47,34 @@
   <meta name="twitter:title" content="~/Startseite Deutsch von @mikelpint & @ZeroDot1">
   <meta name="twitter:description" content="Eine einfache Startseite mit mehrsprachiger Unterstützung für jeden Browser.">
   <meta name="twitter:image" content="https://zerodot1.gitlab.io/Startpage/imgs/favicon_original.png">
+
+  <script async language="JavaScript">
+    <!--
+
+    // Test for automatic deletion of cookies.
+    function clearListCookies() {
+      var cookies = document.cookie.split(";");
+      for (var i = 0; i < cookies.length; i++) {
+        var spcook = cookies[i].split("=");
+        deleteCookie(spcook[0]);
+      }
+
+      function deleteCookie(cookiename) {
+        var d = new Date();
+        d.setDate(d.getDate() - 1);
+        var expires = ";expires=" + d;
+        var name = cookiename;
+        //alert(name);
+        var value = "";
+        document.cookie = name + "=" + value + expires + "; path=/";
+      }
+      document.cookie.split(";").forEach(function(c) { document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/"); });
+      window.location = ""; // TO REFRESH THE PAGE
+    }
+    //
+    -->
+  </script>
+
   <title>~/Startseite</title>
 
 </head>
@@ -204,7 +232,6 @@
       <br />
     </div>
 
-    
 </body>
 
 </html>
