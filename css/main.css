@@ -101,13 +101,15 @@ body {
 .lists {
   font-size: 12pt;
   float: left;
-  overflow: auto;
   margin-left: 5em;
   margin-top: 3em;
   height: 13.5em;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
   border-radius: 6px;
   border-width: 1px;
   border-style: solid;
+  overflow: auto;
 }
 
 .lists ul {
@@ -310,6 +312,14 @@ input[type=text]:hover {
   cursor: pointer;
 }
 
+.DuckButton:hover {
+  -webkit-transition: 2s;
+  transition: 2s;
+  -webkit-filter: grayscale(65%);
+          filter: grayscale(65%);
+  cursor: pointer;
+}
+
 /*
     Color palettes
 */
@@ -367,10 +377,14 @@ input[type=text]:hover {
 }
 
 .dropbtn {
+  background: url("../imgs/world.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
   background-color: #171C28;
   color: white;
   padding: 20px;
-  font-size: 16px;
+  width: 150%;
   border: none;
   cursor: pointer;
   -webkit-box-shadow: 0px 0 5px #333;
@@ -378,7 +392,6 @@ input[type=text]:hover {
 }
 
 .dropbtn:hover, .dropbtn:focus {
-  background: #171C28;
   outline: none;
   color: white;
 }
@@ -389,21 +402,23 @@ input[type=text]:hover {
 }
 
 .dropdown-content {
+  width: 150%;
   display: none;
   position: absolute;
-  background-color: #171C28;
   min-width: 20px;
-  overflow: auto;
+  overflow: hidden;
   -webkit-box-shadow: 0 0 5px #333;
           box-shadow: 0 0 5px #333;
   z-index: 1;
+  margin: 0 auto;
 }
 
 .dropdown-content a {
+  text-align: center;
   color: black;
-  padding: 20px;
   text-decoration: none;
   display: block;
+  padding: 20px;
 }
 
 .dropdown a:hover {
@@ -420,12 +435,12 @@ input[type=text]:hover {
 }
 
 .show {
-  display: block;
+  display: inline-block;
 }
 
 #footer {
   position: absolute;
-  bottom: -0em;
+  bottom: 3em;
   font-size: 10px;
   z-index: 10;
   height: 4em;
@@ -433,7 +448,6 @@ input[type=text]:hover {
   left: 0;
   margin-right: auto;
   margin-left: auto;
-  margin-top: -3em;
   width: 90%;
   text-align: center;
   color: white;
@@ -466,6 +480,10 @@ input[type=text]:hover {
 
 ::-webkit-scrollbar-thumb:active {
   background: #99cc99;
+}
+
+.lists {
+  scrollbar-width: none;
 }
 
 .link-images {
