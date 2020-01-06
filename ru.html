@@ -1,24 +1,26 @@
-<!-- English version -->
+<!-- Russian version -->
 
 <!DOCTYPE html>
 <html lang="ru" class="fonts" style="min-height:100%;position:relative;">
 
 <head>
+
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel='preconnect' href='//*.startpage.com'>
   <link rel='dns-prefetch' href='//gitlab.com'>
-  <link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com'>
+  <link rel='dns-prefetch' href='//stackpath.bootstrapcdn.com'>
   <link rel='dns-prefetch' href='//*.googletagmanager.com'>
   <link rel='dns-prefetch' href='//*.google.com'>
-  <link rel="stylesheet" rel="preload" type="text/css" <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"
+  <link rel="stylesheet" rel="preload" type="text/css" <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"
     media="none" onload="if(media!='all')media='all'">
   <link rel="stylesheet" rel="preload" type="text/css" href="css/main.css" media="none" onload="if(media!='all')media='all'">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" async></script>
+  <script async src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <script src='js/main.js' charset="utf-8" async></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125797600-2"></script>
+
   <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -47,7 +49,31 @@
   <meta name="twitter:title" content="~/главная страница Русский от @mikelpint & @ZeroDot1">
   <meta name="twitter:description" content="Простая стартовая страница с многоязычной поддержкой для каждого браузера.">
   <meta name="twitter:image" content="https://zerodot1.gitlab.io/Startpage/imgs/favicon_original.png">
+
+  <script async language="JavaScript">
+    // ACR 4
+    function clearCookie(name, domain, path) {
+      var domain = domain || document.domain;
+      var path = path || "/";
+      document.cookie = name + "=; expires=" + +new Date + "; domain=" + domain + "; path=" + path;
+    };
+    //
+    function setCookie(name, value, seconds) {
+
+      if (typeof(seconds) != 'undefined') {
+        var date = new Date();
+        date.setTime(date.getTime() + (seconds * 1000));
+        var expires = "; expires=" + date.toGMTString();
+      } else {
+        var expires = "";
+      }
+
+      document.cookie = name + "=" + value + expires + "; path=/";
+    }
+  </script>
+
   <title>~/главная страница</title>
+
 </head>
 
 <body class="bg fonts body-margin">
@@ -59,20 +85,21 @@
 
   <div id="header" class="body-margin">
     <nav>
-      <h1 onclick="location.href='ru.html';">~главная страница</h1>
+      <h1 onclick="location.href='es.html';" style="cursor: default;">~главная страница</h1>
       <ul>
         <div class="dropdown">
-          <li class="links"><button onclick="myFunction()" class="dropbtn" class="links" title="English is selected" style="border-radius: 5px;"><img class="link-images" src="imgs/language-icon.png">Language</button></li>
+          <li class="links"><button onclick="myFunction()" class="dropbtn" class="links" title="German is selected." style="border-radius: 5px;"></button></li>
           <div id="myDropdown" class="dropdown-content">
-            <li class="links"><a class="links" rel="prerender" href="es.html">Español</a></li>
-            <li class="links"><a class="links" rel="prerender" href="en.html">English</a></li>
-            <li class="links"><a class="links" rel="prerender" href="de.html">Deutsch</a></li>
-            <li style="font-weight: bold;" class="links"><a class="links" rel="prerender" href="ru.html">Русский</a></li>
+            <li class="links"><a class="links" rel="prerender" href="es.html" title="Spanish/Español"><img class="link-images" rel="preconnect" src="http://icons.iconarchive.com/icons/custom-icon-design/flat-europe-flag/512/Spain-icon.png" loading="lazy"></a></li>
+            <li class="links"><a class="links" rel="prerender" href="en.html" title="English"><img class="link-images" rel="preconnect" src="http://icons.iconarchive.com/icons/custom-icon-design/flat-europe-flag/512/United-Kingdom-icon.png" loading="lazy"></a></li>
+            <li class="links"><a class="links" rel="prerender" href="de.html" title="German/Deutsch"><img class="link-images" rel="preconnect" src="http://icons.iconarchive.com/icons/custom-icon-design/flat-europe-flag/512/Germany-icon.png" loading="lazy"></a></li>
+            <li class="links"><a class="links" rel="prerender" href="ru.html" title="Russian/Русский"><img class="link-images" rel="preconnect" src="http://icons.iconarchive.com/icons/custom-icon-design/flat-europe-flag/512/Russia-icon.png" loading="lazy"></a></li>
           </div>
         </div>
       </ul>
     </nav>
   </div>
+
   <div class="text-center search-query fonts bg">
     <div class="search-box bg fonts">
       <form rel="preconnect" action="https://www.startpage.com/do/search?&t=dark" method="post" data-set-get-method role="search" itemprop="potentialAction" itemscope="" itemtype="http://schema.org/SearchAction" data-set-query-param="true">
@@ -86,7 +113,7 @@
         <input type="hidden" name="engine0" value="v1all">
         <input required="required" autocomplete="off" autofocus readonly onfocus="this.removeAttribute('readonly');" type="text" itemprop="query-input" data-search-suggestions-trigger="header-form" name="q" placeholder="Поиск в Интернете с начальной страницы&hellip;"
           class="search-query" title="Das Suchfeld ist bei Seitenaufruf im Fokus so das sie ihren Suchbegriff nur noch eintippen müssen um die Suche zu starten.">
-        <input type=image name=STP src="imgs/Startpage.jpg" class="GButton" class="dropbtn" alt="Кнопка с изображением для начала поиска." title="Нажмите, чтобы начать безопасный поиск&hellip;">
+        <input type=image name=STP src="imgs/Startpage.jpg" loading="lazy" class="GButton" class="dropbtn" alt="Кнопка с изображением для начала поиска." title="Нажмите, чтобы начать безопасный поиск&hellip;">
         <!-- Note: The autofocus attribute of the input tag is not supported in Internet Explorer 9 and earlier versions. -->
       </form>
     </div>
@@ -136,7 +163,7 @@
   </div>
   </div>
   <div align="center" id="footer">
-    <img class="link-images" src="https://about.gitlab.com/ico/favicon.ico"><a href="https://gitlab.com/ZeroDot1/Startpage" target="_blank"> GitLab - Startpage</a>
+    <img class="link-images" src="https://about.gitlab.com/ico/favicon.ico" loading="lazy"><a href="https://gitlab.com/ZeroDot1/Startpage" target="_blank"> GitLab - Startpage</a>
     <p>Переведено от: <a href="https://gitlab.com/ZeroDot1" target="_blank">ZeroDot1</a></p>
     <br />
   </div>

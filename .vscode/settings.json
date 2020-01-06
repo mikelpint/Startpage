@@ -10,5 +10,6 @@
       "extensionName": ".css",
       "savePath": "~/../css"
     },
-  ]
+  ],
+  "cSpell.enabled": false
 }

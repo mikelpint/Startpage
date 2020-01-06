@@ -78,3 +78,9 @@ input[type=text]:hover {
   filter: grayscale(80%);
   cursor: pointer;
 }
+
+.DuckButton:hover {
+  transition: 2s;
+  filter: grayscale(65%);
+  cursor: pointer;
+}

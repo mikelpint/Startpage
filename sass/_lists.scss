@@ -1,13 +1,14 @@
 .lists {
   font-size: 12pt;
   float: left;
-  overflow: auto;
   margin-left: 5em;
   margin-top: 3em;
   height: 13.5em;
+  box-sizing: content-box;
   border-radius: 6px;
   border-width: 1px;
   border-style: solid;
+  overflow: auto;
   ul {
     list-style: none;
     text-align: center;
